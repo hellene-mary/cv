@@ -4,6 +4,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./index.css">
   <title>My CV</title>
 </head>
@@ -12,12 +15,12 @@
     <section class="sidebar">
       <div class="sidebar-container">
         <div class="sidebar-photo">
-          <p>photo</p>
+          <img src="./photo.jpg" alt="photo" >
         </div>
-        <div>
-          <ul class="sidebar-list">
+        <div class="sidebar-info">
+          <ul class="sidebar-list list">
             <li class="sidebar-list-item">
-              Contacts
+              <p class="sidebar-list-title">Contacts</p>
               <ul class="contacts-list">
                 <li class="contacts-item"><a href="tel:+380688894532">+38 068 889 45 32</a></li>
                 <li class="contacts-item"><a href="mailto:grekmariaa@gmail.com">grekmariaa@gmail.com</a></li>
@@ -27,7 +30,7 @@
               </ul>
             </li>
             <li class="sidebar-list-item">
-              Tech Skills
+              <p class="sidebar-list-title">Tech Skills</p>
               <ul class="techskills-list">
                 <li class="techskills-item">HTML5</li>
                 <li class="techskills-item">CSS3/SASS</li>
@@ -39,7 +42,7 @@
               </ul>
             </li>
             <li class="sidebar-list-item">
-              Soft Skills
+              <p class="sidebar-list-title"> Soft Skills</p>
               <ul  class="softskills-list">
                 <li class="softskills-item">Willingness to learn</li>
                 <li class="softskills-item">Time management skills</li>
@@ -49,7 +52,7 @@
               </ul>
             </li>
             <li class="sidebar-list-item">
-              Languages
+              <p class="sidebar-list-title">Languages</p>
               <ul class="languages-list">
                 <li class="languages-item">Ukrainian - native</li>
                 <li class="languages-item">English - pre-Intermediate</li>
@@ -64,27 +67,38 @@
       <div class="container">
         <h1 class="about-name">Maria <span>Grek</span></h1>
         <h2 class="about-position">Full Stack Developer</h2>
-        <p class="about-me">I am a Junior Front End developer looking for a full-time job. I have knowledge of
-HTML, CSS, JavaScript and React. I am sufficiently motivated for further training and
+        <p class="about-me">I am a Full Stack Developer looking for a full-time job. I have knowledge of
+HTML, CSS, JavaScript, React and Node.js. I am sufficiently motivated for further training and
 development. I am attentive, responsible and a quick learner.</p>
 
-        <ul class="about-list">
-          <li class="about-list-item">Project experience
+        <ul class="about-list list">
+          <li class="about-list-item">
+            <h3>Project experience</h3>
             <ul class="project-list">
-              <li class="project-item">Phonebook</li>
+              <li class="project-item">
+                <h4>Phonebook</h4>
+                <h5>[React (Hooks, Routers, Redux, Redux Toolkit)]</h5>
+                <p>A simple contact book with routing, registration and user authorization.
+Add, delete and filter contacts implemented. Designed in a minimalist
+style.
+                </p>
+
+              </li>
               <li class="project-item">Phonebook</li>
               <li class="project-item">Phonebook</li>
               <li class="project-item">Phonebook</li>
             </ul>
           </li>
-          <li class="about-list-item">Work experience
+          <li class="about-list-item">
+            <h3>Work experience</h3>
             <ul class="work-list">
               <li class="work-item">Unicef</li>
               <li class="work-item">O.M. Beketov NUUEKh</li>
               <li class="work-item">Eldorado</li>
             </ul>
           </li>
-          <li class="about-list-item">Education
+          <li class="about-list-item">
+            <h3>Education</h3>
             <ul class="education-list">
               <li class="education-item">Unicef</li>
               <li class="education-item">O.M. Beketov NUUEKh</li>
