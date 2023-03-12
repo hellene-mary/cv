@@ -46,11 +46,16 @@ main {
   list-style: none;
 }
 
-/* ----------------------------------------------- */
+.item {
+  margin-left: 40px;
+  margin-bottom: 5px;
+}
 
+/* ----------------------------------------------- */
 .sidebar-container {
   background-color: darkslategray;
   padding: 20px;
+  width: 33vw;
 }
 
 .sidebar-photo {
