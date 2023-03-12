@@ -1,0 +1,21 @@
+/* body {
+  background-color: blue;
+} */
+
+main {
+  display: flex;
+}
+
+.sidebar {
+  background-color: darkslategray;
+  padding: 20px;
+}
+
+.about {
+  background-color: beige;
+}
+
+.name span {
+  color: rgb(71, 9, 9);
+}
+
