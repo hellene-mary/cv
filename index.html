@@ -4,57 +4,42 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link type="image/png" sizes="16x16" rel="icon" href="./favicon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./index.css">
   <title>My CV</title>
 </head>
 <body>
-  <main class="main">
-    <section class="sidebar">
-      <div class="sidebar-container">
-        <div class="sidebar-photo">
-          <img src="./photo.jpg" alt="photo" >
-        </div>
-        <div class="sidebar-info">
-          <ul class="sidebar-list list">
-            <li class="sidebar-list-item">
-              <p class="sidebar-list-title">Contacts</p>
-              <ul class="contacts-list">
-                <li class="contacts-item item">
-                  <a href="tel:+380688894532">+38 068 889 45 32</a>
-                </li>
-                <li class="contacts-item item">
-                  <a href="mailto:grekmariaa@gmail.com">grekmariaa@gmail.com</a>
-                </li>
-                <li class="contacts-item item">
-                  <a href="https://github.com/hellene-mary" target="_blank" rel="noreferrer">GitHub</a>
-                </li>
-                <li class="contacts-item item">
-                  <a href="https://www.linkedin.com/in/maria-grek/" target="_blank" rel="noreferrer">LinkedIn</a>
-                </li>
-                <li class="contacts-item item">
-                  <address>
-                    <a href="https://goo.gl/maps/jkfxsVspQ2693TvH7" target="_blank" rel="noreferrer">Kharkiv, Ukraine</a>
-                  </address>
-                </li>
-              </ul>
-            </li>
-            <li class="sidebar-list-item">
-              <p class="sidebar-list-title">Tech Skills</p>
+  <main>
+
+    <section class="about-me">
+      <div>
+        <h1 class="name">Maria <span>Grek</span></h1>
+        <p class="position">Full Stack Developer</p>
+        <p class="about-me-text">I am a Full Stack Developer looking for a full-time job. I have knowledge of
+HTML, CSS, JavaScript, TypeScript, React, Redux and Node.js. I am sufficiently motivated for further training and
+development. I am attentive, responsible and a quick learner.</p>
+      </div>
+
+      <div class="info-left">
+          <ul class="list">
+            <li class="">
+              <p class="title">Tech Skills</p>
               <ul class="techskills-list">
                 <li class="techskills-item item">HTML5</li>
                 <li class="techskills-item item">CSS3/SASS</li>
                 <li class="techskills-item item">JavaScript</li>
-                <li class="techskills-item item">React</li>
-                <li class="techskills-item item">Redux</li>
+                <li class="techskills-item item">React Hooks & Components</li>
+                <li class="techskills-item item">Webpack/Parcel</li>
+                <li class="techskills-item item">React Redux</li>
                 <li class="techskills-item item">Node.js</li>
                 <li class="techskills-item item">MongoDB</li>
               </ul>
             </li>
-            <li class="sidebar-list-item">
-              <p class="sidebar-list-title"> Soft Skills</p>
+            <li class="">
+              <p class="title"> Soft Skills</p>
               <ul  class="softskills-list">
                 <li class="softskills-item item">Willingness to learn</li>
                 <li class="softskills-item item">Time management skills</li>
@@ -63,62 +48,147 @@
                 <li class="softskills-item item">Autonomous</li>
               </ul>
             </li>
-            <li class="sidebar-list-item">
-              <p class="sidebar-list-title">Languages</p>
+            <li class="">
+              <p class="title">Languages</p>
               <ul class="languages-list">
                 <li class="languages-item item">Ukrainian - native</li>
                 <li class="languages-item item">English - pre-Intermediate</li>
               </ul>
             </li>
+            <li class="">
+              <p class="title">Contacts</p>
+              <ul class="contacts-list">
+                <li class="contacts-item item">
+                  <svg class="icon-svg">
+                    <use href="./src/image/svg/symbol-defs.svg#icon-mobile" ></use>
+                  </svg>
+                  <a href="tel:+380688894532">+38 068 889 45 32</a>
+                </li>
+                <li class="contacts-item item">
+                  <svg class="icon-svg">
+                    <use href="./src/image/svg/symbol-defs.svg#icon-email" ></use>
+                  </svg>
+                  <a href="mailto:grekmariaa@gmail.com">grekmariaa@gmail.com</a>
+                </li>
+                <li class="contacts-item item">
+                  <svg class="icon-svg">
+                    <use href="./src/image/svg/symbol-defs.svg#icon-github" ></use>
+                  </svg>
+                  <a href="https://github.com/hellene-mary" target="_blank" rel="noreferrer">GitHub</a>
+                </li>
+                <li class="contacts-item item">
+                  <svg class="icon-svg">
+                    <use href="./src/image/svg/symbol-defs.svg#icon-linkedin" ></use>
+                  </svg>
+                  <a href="https://www.linkedin.com/in/maria-grek/" target="_blank" rel="noreferrer">LinkedIn</a>
+                </li>
+                <li class="contacts-item item">
+                  <svg class="icon-svg">
+                    <use href="./src/image/svg/symbol-defs.svg#icon-location" ></use>
+                  </svg>
+                  <address>
+                    <a href="https://goo.gl/maps/jkfxsVspQ2693TvH7" target="_blank" rel="noreferrer">Kharkiv, Ukraine</a>
+                  </address>
+                </li>
+              </ul>
+            </li>
           </ul>
-        </div>
       </div>
     </section>
 
-    <section class="about">
-      <div class="container">
-        <h1 class="about-name">Maria <span>Grek</span></h1>
-        <h2 class="about-position">Full Stack Developer</h2>
-        <p class="about-me">I am a Full Stack Developer looking for a full-time job. I have knowledge of
-HTML, CSS, JavaScript, React and Node.js. I am sufficiently motivated for further training and
-development. I am attentive, responsible and a quick learner.</p>
-
+    <section class="experience">
+      <div class="photo">
+        <img src="./src/image/photo.jpg" alt="photo" >
+      </div>
+      <div class="info-right">
         <ul class="about-list list">
           <li class="about-list-item">
-            <h3>Project experience</h3>
-            <ul class="project-list">
-              <li class="project-item">
-                <h4>Phonebook</h4>
-                <h5>[React (Hooks, Routers, Redux, Redux Toolkit)]</h5>
-                <p>A simple contact book with routing, registration and user authorization.
-Add, delete and filter contacts implemented. Designed in a minimalist
-style.
+            <h3 class="title onBlack">Project experience</h3>
+            <ul class="projects-list list">
+              <li class="project-item item">
+                <h4 class="project-name">
+                  <a class="link" href="https://github.com/hellene-mary/Barbershop">Phonebook</a>
+                  <a class="link" href="https://hellene-mary.github.io/Barbershop/">www...</a>
+                </h4>
+                <p>pet-project | 2022</p>
+                <h5 class="project-tech">[React (Hooks, Routers, Redux, Redux Toolkit)]</h5>
+                <p class="project-about">A simple contact book with routing, registration and user authorization. 
+                  Add, delete and filter contacts implemented. Designed in a minimalist style.
                 </p>
 
               </li>
-              <li class="project-item">Phonebook</li>
-              <li class="project-item">Phonebook</li>
-              <li class="project-item">Phonebook</li>
+              <li class="project-item item">
+                <h4 class="project-name">BarberShop</h4>
+                <h5 class="project-tech">[HTML5, СSS, JS]]</h5>
+                <p class="project-about">Website for men's barber shop. Simple and functional.</p>
+              </li>
+              <!-- <li class="project-item">Phonebook</li> -->
+
             </ul>
           </li>
           <li class="about-list-item">
-            <h3>Work experience</h3>
-            <ul class="work-list">
-              <li class="work-item">Unicef</li>
-              <li class="work-item">O.M. Beketov NUUEKh</li>
-              <li class="work-item">Eldorado</li>
-            </ul>
+            <h3 class="title onBlack">Work experience</h3>
+            <div class="about-list-box">
+              <div>
+                <ul class="work-list">
+                  <li class="work-item item">
+                    <h4>V.V. Dokuchaiev KNAU</h4>
+                    <p>2022 - until now</p>
+                    <p>Teacher</p>
+                  </li>
+                  <p class="more-info">More work experience...</p>
+                  <li class="work-item item is-hidden">
+                    <h4>Unicef</h4>
+                    <p>2022 - until now</p>
+                    <p>Volunteer</p>
+                  </li>
+                  <li class="work-item item is-hidden">
+                    <h4>O.M. Beketov NUUEKh</h4>
+                    <p>2017 - 2019</p>
+                    <p>Teacher</p>
+                  </li>
+                  <li class="work-item item is-hidden">
+                    <h4>Eldorado</h4>
+                    <p>2015 - 2017</p>
+                    <p>Cashier, seller</p>
+                  </li>
+                </ul>
+              </div>
+              <!-- <div>
+                <h4>Achievements</h4>
+                <ul>
+                  <li>Communication with different layers of the population</li>
+                  <li>Quick resolution of problems</li>
+                  <li>Teaching mathematical disciplines</li>
+                  <li>Writing technical articles</li>
+                  <li>Organization of conferences</li>
+                  <li>Public speeches/lectures/presentations</li>
+                  <li>Market/product analysis</li>
+                  <li>Conflict management skills</li>
+                  <li>Business communication skills</li>
+                </ul>
+              </div> -->
+            </div>
           </li>
           <li class="about-list-item">
-            <h3>Education</h3>
+            <h3 class="title onBlack">Education</h3>
             <ul class="education-list">
-              <li class="education-item">Unicef</li>
-              <li class="education-item">O.M. Beketov NUUEKh</li>
-              <li class="education-item">Eldorado</li>
+              <li class="education-item item">
+                <h4>IT School GoIT</h4>
+                <p>2022 - 2023</p>
+                <p>Fullstack Developer</p>
+              </li>
+              <li class="education-item item">
+                <h4>O.M. Beketov National University of Urban Economy in Kharkiv</h4>
+                <p>2009 - 2018</p>
+                <p>Bachelor of transport technologies</p>
+                <p>Transport engineer specialist</p>
+                <p>Master of Land and Real Estate Appraisal</p>
+                <p>Candidate of Engineering Sciences</p>
+              </li>
             </ul>
           </li>
         </ul>
-
       </div>
     </section>
   </main>
