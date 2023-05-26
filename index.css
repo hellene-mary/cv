@@ -35,7 +35,11 @@ main {
   margin: 0 auto;
   padding: 30px;
   border: 1px solid #282a30;
-  background-image: linear-gradient(to right, white 70%, rgb(220, 180, 112) 30%);
+  background-image: linear-gradient(
+    to right,
+    white 70%,
+    rgb(220, 180, 112) 30%
+  );
   width: 700px;
 
   display: flex;
@@ -141,7 +145,7 @@ main {
 }
 
 .contacts-item:hover {
-  color: red;
+  color: #282a30;
   transform: scale(1.05);
 }
 
@@ -199,6 +203,12 @@ address {
   padding: 15px 25px;
 }
 
+.projects-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
 .project-item {
   padding-left: 20px;
   border-left: 3px solid #f0c476;
@@ -207,6 +217,16 @@ address {
   display: flex;
   flex-direction: column;
   gap: 8px;
+}
+
+.project-name {
+  display: flex;
+  gap: 70px;
+}
+
+.project-item span {
+  color: #f0c476;
+  text-decoration: underline;
 }
 
 .project-item::before {
@@ -224,4 +244,40 @@ address {
   color: #f0c476;
   font-style: italic;
   font-weight: 500;
+}
+
+/* ------work */
+
+.work-item {
+  position: relative;
+  border-left: 3px solid #f0c476;
+  padding-left: 20px;
+}
+
+.work-item::before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: -6px;
+  top: 0;
+  width: 9px;
+  height: 9px;
+  background-color: #f0c476;
+}
+
+.education-item {
+  position: relative;
+  border-left: 3px solid #f0c476;
+  padding-left: 20px;
+}
+
+.education-item::before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: -6px;
+  top: 0;
+  width: 9px;
+  height: 9px;
+  background-color: #f0c476;
 }
