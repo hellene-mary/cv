@@ -135,7 +135,7 @@
             <li class="about-list-item">
               <h3 class="title onBlack">Project experience</h3>
               <ul class="projects-list list">
-                <li class="project-item item">
+                <li class="project-item item marker-item">
                   <h4 class="project-name">
                     <a
                       class="link"
@@ -169,7 +169,7 @@
                     minimalist style.
                   </p>
                 </li>
-                <li class="project-item item">
+                <li class="project-item item marker-item">
                   <h4 class="project-name">
                     <a
                       class="link"
@@ -178,22 +178,21 @@
                       href="https://github.com/hellene-mary/Barbershop"
                       >BarberShop</a
                     >
+                  </h4>
+                  <p>pet-project | 2022</p>
+                  <h5 class="project-tech">[HTML5, СSS, JS]</h5>
+                  <p class="project-about">
+                    Website for men's
                     <a
                       class="link"
                       target="_blank"
                       rel="noopener noreferrer"
                       href="https://hellene-mary.github.io/Barbershop/"
-                      >www...</a
-                    >
-                  </h4>
-                  <p>pet-project | 2022</p>
-                  <h5 class="project-tech">[HTML5, СSS, JS]</h5>
-                  <p class="project-about">
-                    Website for men's <span>barber shop</span>. Simple and
-                    functional.
+                      >barber shop</a
+                    >. Simple and functional.
                   </p>
                 </li>
-                <li class="project-item item">
+                <li class="project-item item marker-item">
                   <h4 class="project-name">
                     <a
                       class="link"
@@ -202,25 +201,24 @@
                       href="https://github.com/makfiz/project_group_5_front"
                       >Petly</a
                     >
-                    <a
-                      class="link"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      href="https://makfiz.github.io/project_group_5_front/"
-                      >www...</a
-                    >
                   </h4>
                   <p>team-project | 2023</p>
                   <h5 class="project-tech">
                     [JS, React, Axios, Node.js, Express.js, MongoDB]
                   </h5>
                   <p class="project-about">
-                    <span>Petly</span> is a dedicated platform for pet owners,
-                    facilitating communication, sharing news, lost/found pet
-                    listings, and providing a directory of local pet stores.
-                    Connect with fellow pet enthusiasts, stay informed, and
-                    easily find the resources you need for your furry
-                    companions.
+                    <a
+                      class="link"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href="https://makfiz.github.io/project_group_5_front/"
+                      >Petly</a
+                    >
+                    is a dedicated platform for pet owners, facilitating
+                    communication, sharing news, lost/found pet listings, and
+                    providing a directory of local pet stores. Connect with
+                    fellow pet enthusiasts, stay informed, and easily find the
+                    resources you need for your furry companions.
                   </p>
                 </li>
               </ul>
@@ -230,30 +228,31 @@
               <div class="about-list-box">
                 <div>
                   <ul class="work-list list">
-                    <li class="work-item item">
+                    <li class="work-item item marker-item">
                       <h4>V.V. Dokuchaiev KNAU</h4>
                       <p>2022 - until now</p>
                       <p>Teacher</p>
                     </li>
-                    <p class="more-info">More work experience...</p>
+                    <p class="more-info">Show more...</p>
                     <!-- ^add on click action -->
-                    <li class="work-item item is-hidden">
+                    <li class="work-item item is-hidden marker-item">
                       <h4>Unicef</h4>
                       <p>2022 - until now</p>
                       <p>Volunteer</p>
                     </li>
-                    <li class="work-item item is-hidden">
+                    <li class="work-item item is-hidden marker-item">
                       <h4>O.M. Beketov NUUEKh</h4>
                       <p>2017 - 2019</p>
                       <p>Teacher</p>
                     </li>
-                    <li class="work-item item is-hidden">
+                    <li class="work-item item is-hidden marker-item">
                       <h4>Eldorado</h4>
                       <p>2015 - 2017</p>
                       <p>Cashier, seller</p>
                     </li>
                   </ul>
                 </div>
+                <!-- & обов\яки? -->
                 <!-- <div>
                 <h4>Achievements</h4>
                 <ul>
@@ -273,15 +272,28 @@
             <li class="about-list-item">
               <h3 class="title onBlack">Education</h3>
               <ul class="education-list list">
-                <li class="education-item item">
+                <li class="education-item item marker-item">
                   <h4>IT School GoIT</h4>
                   <!-- ? add link on GoIt sertificate/site -->
                   <p>2022 - 2023</p>
-                  <p>Fullstack Developer</p>
+                  <!-- <p>Fullstack Developer</p> -->
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://drive.google.com/file/d/1lZwC5TcYeoUNsvNpuCU6uwJeO7cbl7ff/view?usp=sharing"
+                    >Fullstack Developer</a
+                  >
                 </li>
-                <p class="more-info">More information...</p>
+                <!-- <p class="more-info">Show more...</p> -->
+                <button type="button" class="show-more-btn btn">
+                  Show more...
+                </button>
+                <button type="button" class="show-less-btn btn is-hidden">
+                  Show less...
+                </button>
+
                 <!-- ^add on click action -->
-                <li class="education-item item is-hidden">
+                <li class="education-item item is-hidden marker-item">
                   <h4>
                     O.M. Beketov National University of Urban Economy in Kharkiv
                   </h4>
@@ -297,5 +309,7 @@
         </div>
       </section>
     </main>
+
+    <script src="./index.js"></script>
   </body>
 </html>

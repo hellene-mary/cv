@@ -128,7 +128,7 @@ main {
   content: '';
   display: block;
   position: absolute;
-  left: -5px;
+  left: -6px;
   top: 0;
   width: 9px;
   height: 9px;
@@ -171,7 +171,7 @@ address {
   color: white;
 }
 
-.experience::before {
+/* .experience::before {
   content: '';
   display: block;
   width: 150px;
@@ -181,7 +181,7 @@ address {
   position: absolute;
   bottom: 0;
   left: 0;
-}
+} */
 
 .photo {
   /* margin-bottom: 30px; */
@@ -229,7 +229,7 @@ address {
   text-decoration: underline;
 }
 
-.project-item::before {
+.marker-item::before {
   content: '';
   display: block;
   position: absolute;
@@ -254,7 +254,7 @@ address {
   padding-left: 20px;
 }
 
-.work-item::before {
+/* .work-item::before {
   content: '';
   display: block;
   position: absolute;
@@ -263,7 +263,7 @@ address {
   width: 9px;
   height: 9px;
   background-color: #f0c476;
-}
+} */
 
 .education-item {
   position: relative;
@@ -271,7 +271,7 @@ address {
   padding-left: 20px;
 }
 
-.education-item::before {
+/* .education-item::before {
   content: '';
   display: block;
   position: absolute;
@@ -280,4 +280,11 @@ address {
   width: 9px;
   height: 9px;
   background-color: #f0c476;
+} */
+
+.btn {
+  background-color: inherit;
+  color: inherit;
+  border: none;
+  text-decoration: underline;
 }
