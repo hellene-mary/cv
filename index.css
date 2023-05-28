@@ -48,10 +48,12 @@ main {
 
 .list {
   list-style: none;
+  margin-bottom: 20px;
 }
 
 .item {
   margin-left: 15px;
+  margin-bottom: 20px;
 }
 
 .item:not(:last-child) {
@@ -69,6 +71,10 @@ main {
   margin-bottom: 10px;
   /* margin-top: 20px; */
 }
+
+/* .title:not(:first-child) {
+  margin-top: 20px;
+} */
 
 .onBlack {
   color: #f0c476;
@@ -133,6 +139,10 @@ main {
   width: 9px;
   height: 9px;
   background-color: black;
+}
+
+.info-left {
+  padding-top: 15px;
 }
 
 .contacts-list {
@@ -200,10 +210,6 @@ address {
 
 .info-right {
   padding: 15px 25px;
-}
-
-.about-list-item:not(:first-child) {
-  margin-top: 20px;
 }
 
 .projects-list {
